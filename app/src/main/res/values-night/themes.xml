@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Inf151872_2" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/background</item>
+        <item name="colorAccent">@color/golden_light</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

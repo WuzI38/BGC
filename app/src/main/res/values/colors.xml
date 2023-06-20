@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_text">#80FFFFFF</color>
+    <color name="white_hint">#40FFFFFF</color>
+    <color name="background">#FF171717</color>
+    <color name="rim_grey">#FF333333</color>
+    <color name="golden_light">#FFB19D60</color>
+    <color name="golden_dark">#FF917839</color>
+</resources>

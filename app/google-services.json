@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "734042149608",
+    "firebase_url": "https://boardgamecollector-ab4ca-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "boardgamecollector-ab4ca",
+    "storage_bucket": "boardgamecollector-ab4ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734042149608:android:9929ed0fca276363c76f5d",
+        "android_client_info": {
+          "package_name": "edu.put.inf151872_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "734042149608-edrtdduqc5iabrd5prk9gtdv8463beo1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkF9jUzS8HzZjT3Uv7kIZlNvMwhfd7iR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "734042149608-edrtdduqc5iabrd5prk9gtdv8463beo1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

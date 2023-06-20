@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_setup_relative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_base"
+    tools:context=".LogActivity">
+
+    <LinearLayout
+        android:id="@+id/layout_setup_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/logo_setup"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/app_logo"
+            android:src="@drawable/app_logo" />
+
+        <EditText
+            android:id="@+id/account_name_setup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="50dp"
+            android:autofillHints="false"
+            android:background="@drawable/login_input"
+            android:ellipsize="start"
+            android:gravity="center_horizontal"
+            android:hint="@string/bgg_account"
+            android:inputType="text"
+            android:padding="12dp"
+            android:singleLine="true"
+            android:textColorHint="@color/white_hint"
+            android:textColor="@color/white_text"
+            tools:ignore="RtlSymmetry"
+            android:textCursorDrawable="@null"
+            android:textSize="21sp"/>
+
+        <Button
+            android:id="@+id/button_setup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            android:backgroundTint="@color/golden_light"
+            android:text="@string/button_init"
+            android:textAllCaps="false"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
